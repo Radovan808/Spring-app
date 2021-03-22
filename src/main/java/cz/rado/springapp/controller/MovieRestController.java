@@ -2,6 +2,7 @@ package cz.rado.springapp.controller;
 
 import cz.rado.springapp.model.dto.MovieDTO;
 import cz.rado.springapp.service.MovieService;
+import org.springframework.hateoas.Resource;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
